@@ -10,10 +10,10 @@ import Facebook from '../../assets/facebook.svg';
 import Instagram from '../../assets/instagram.svg';
 import Twitter from '../../assets/twitter.svg';
 import Linkedin from '../../assets/linkedin.svg';
+import Button from '../Button/Button';
 
 //CONTEXT
 import { AppContext } from '../../contexts/AppContext';
-import Button from '../Button/Button';
 
 
 function Footer() {

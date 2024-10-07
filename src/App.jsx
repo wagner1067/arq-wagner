@@ -6,6 +6,7 @@ import Home from '../src/pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
+import LoadingSpinner from './components/LoadingSpinner/LoadingSpinner';
 
 //UTILS
 import ScrollToTop from './utils/ScrollTop';
@@ -15,8 +16,9 @@ function App() {
   const appContext = useContext(AppContext);
 
   if (appContext.loading) {
-    return 'Loading...'
+    return <LoadingSpinner />
   }
+
   return (
     <Router>
       <ScrollToTop />
