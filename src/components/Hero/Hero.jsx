@@ -14,7 +14,7 @@ function Hero() {
             <div className='hero-text'>
                 <h1>{appContext.languages[appContext.language].hero.title}</h1>
                 <p>{appContext.languages[appContext.language].hero.subtitle}</p>
-                <Link>
+                <Link to="/about">
                     <Button buttonStyle="secondary" arrow>
                         {appContext.languages[appContext.language].hero.cta}
                     </Button>
